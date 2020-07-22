@@ -11,6 +11,7 @@ module.exports = {
   bracketSpacing: true, //字面量对象括号中的空格，默认true true - Example: { foo: bar }.  false - Example: {foo: bar}.
   jsxBracketSameLine: false,
   arrowParens: "always", //箭头函数中的括号
-  vueIndentScriptAndStyle: false,
   endOfLine: "lf", //行末尾标识
+  htmlWhitespaceSensitivity: "ignore",
+  vueIndentScriptAndStyle: true,
 };
